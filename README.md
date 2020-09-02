@@ -1,6 +1,6 @@
 <h1> API REST em nodeJs </h1>
 
-<p align="justify"> Api simples usando tecnologia Node.js, modelo Rest-Full, para criação de um crud, com autenticação JWT com criação e update de usúarios ao banco de dados MySql relacionavel usando Sequelize</p>
+<p align="justify"> Api simples usando tecnologia Node.js, modelo Rest-Full, para criação de um crud, com autenticação JWT, criação e update de usúarios ao banco de dados MySql relacionavel usando Sequelize</p>
 
 
 ### :trophy: Funcionalidades
