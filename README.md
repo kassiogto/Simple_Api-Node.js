@@ -1,6 +1,7 @@
 <h1> API REST em nodeJs </h1>
 
-<p align="justify"> Api simples usando tecnologia Node.js, modelo Rest-Full, para criação de um crud, com autenticação JWT, criação e update de usúarios ao banco de dados MySql relacionavel usando Sequelize.</p>
+<p align="justify"> API REST em nodeJS, usando express. Essa API cria um usuario, e faz uma autenticação via token, utilizando a biblioteca JWT.</p>
+<p align="justify"> O banco de dados utilizado pela API é o MySQL e tambem ultiliza o ORM Sequelize. Para fazer a comunicação com NodeJs. </p>
 
 
 ### :trophy: Funcionalidades
@@ -33,13 +34,12 @@
  ## :exclamation: Instalação e configuração
 <------ NPM ( https://www.npmjs.com/get-npm ) ------->
 <br>
-<------ Node.Js ( https://nodejs.org/en/ ) ------>
-<br>
 <------ Express ( https://expressjs.com/en/starter/installing.html ) ------>
 <br>
-<------ Sequelize ( https://sequelize.org/master/manual/getting-started.html#installing ) ------>
+<------ JWT ( https://www.npmjs.com/package/jsonwebtoken ) ------>
 <br>
-<------ MySql ( https://dev.mysql.com/downloads/ ) ------->
+<------ Sequelize ( https://sequelize.org/master/manual/getting-started.html#installing ) ------>
+
  
 No terminal Git digite o comando:
 ---
@@ -76,4 +76,3 @@ Na mesma pasta config Crie outro arquivo chamado 'auth.json' dentro desse arquiv
  após a criação de todas as migrations, use o comando: <strong>NPM start</strong>
 
 #########################
-<h2>:snowflake: Contribuintes :snowflake:</h2>
