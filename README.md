@@ -45,7 +45,7 @@ No terminal Git digite o comando:
 ---
     git clon https://github.com/kassiogto/Simple_Api-Node.js.git
 ---
- Entre na pasta, Crie uma pastas chamada 'config', dentro dela crie um Arquivo chamado 'database.js', nesse arquivo coloque:
+Crie uma pasta chamada 'config', dentro dela crie um Arquivo chamado 'database.js', nesse arquivo coloque:
  <p align="justify"> 
  <br> module.exports = {
      dialect: 'mysql',
