@@ -30,14 +30,16 @@
     - Update no nome, ref, valor pelo id do produto.
     - Delete por id de produto.
     
- ## :exclamation:Pré-requisitos
+ ## :exclamation: Instalação e configuração
 <------ NPM ( https://www.npmjs.com/get-npm ) ------->
 <br>
 <------ Node.Js ( https://nodejs.org/en/ ) ------>
 <br>
+<------ Express ( https://expressjs.com/en/starter/installing.html ) ------>
+<br>
+<------ Sequelize ( https://sequelize.org/master/manual/getting-started.html#installing ) ------>
+<br>
 <------ MySql ( https://dev.mysql.com/downloads/ ) ------->
- 
- ## :arrow_forward: Configuração para Rodar a Api :star2:
  
 No terminal Git digite o comando:
 ---
@@ -63,14 +65,13 @@ Na mesma pasta config Crie outro arquivo chamado 'auth.json' dentro desse arquiv
     "secret": "Aqui vai a palavra chave do JWT de acordo com o que a Api diz"
 }
 <br>
- 
- :exclamation:instale as dependencias:
+
+:exclamation:instale as dependencias
  ---
  NPM install
  ---
  
- # Como rodar a Api:
- primeiro Abra o terminal e digite: <strong>Npx Sequelize db:create</strong><br>
+ no terminal digite: <strong>Npx Sequelize db:create</strong><br>
  Após o primeiro comando digite: <strong>Npx sequelize db:migrate</strong><br>
  após a criação de todas as migrations, use o comando: <strong>NPM start</strong>
 
