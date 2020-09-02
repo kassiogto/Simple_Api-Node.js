@@ -62,7 +62,7 @@ No terminal Git digite o comando:
 <br>
 Na mesma pasta config Crie outro arquivo chamado 'auth.json' dentro desse arquivo coloque:<br>
 {
-    "secret": "Aqui vai a palavra chave do JWT de acordo com o que a Api diz"
+    "secret": "Aqui vai a palavra chave do JWT de acordo com o que sua Api  diz"
 }
 <br>
 
