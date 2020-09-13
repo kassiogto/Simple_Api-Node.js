@@ -55,7 +55,7 @@ Crie uma pasta chamada 'config', dentro dela crie um Arquivo chamado 'database.j
      database: 'teste-git',
      define: {
      timestamps: true,
-     underscored: true
+     underscored: true,
     }
   }
   </p>
