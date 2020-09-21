@@ -38,7 +38,7 @@
 <br>
 <------ JWT ( https://www.npmjs.com/package/jsonwebtoken ) ------>
 <br>
-<------ Sequelize ( https://sequelize.org/master/manual/getting-started.html#installing ) ------>
+<------ Sequelize ( https://sequelize.org/master/manual/getting-started.html#installing ) ----->
 
  
 No terminal Git digite o comando:
