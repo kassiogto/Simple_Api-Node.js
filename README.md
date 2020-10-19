@@ -62,7 +62,7 @@ Crie uma pasta chamada 'config', dentro dela crie um Arquivo chamado 'database.j
 <br>
 Na mesma pasta config Crie outro arquivo chamado 'auth.json' dentro desse arquivo coloque:<br>
 {
-    "secret": "Aqui vai a palavra chave do JWT de acordo com o que sua Api  diz"
+    "secret": "Aqui vai a palavra chave em formato MD5 do JWT de acordo com o que sua Api  diz"
 }
 <br>
 
